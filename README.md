@@ -13,9 +13,11 @@ This project aims to predict stock movement (up or down) based on the top 25 new
 **1. Data Preprocessing:**
    * Tokenization, stopword removal, stemming/lemmatization.
    * TF-IDF Vectorization to convert news headlines into numerical features.
+     
 **2. Model Training:**
    * Trains Logistic Regression, Random Forest, and Naïve Bayes classifiers.
    * Evaluates models using accuracy, precision, recall, and F1-score.
+     
 **3. Stock Prediction:**
    * Uses trained models to predict whether stock prices will increase or decrease based on the latest news.
 
